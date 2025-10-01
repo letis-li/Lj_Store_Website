@@ -1,0 +1,539 @@
+/* paleta de cores */
+/* AMARELO ESCURO #e0c755 */
+/* AMARELO PADRÃO #F5E189*/
+
+body{
+    font-family: "Signika Negative", sans-serif, light;
+}
+
+/* ======= CSS PRINCIPAL ======== */
+/* ======= topo (início)======== */
+.heading{
+    margin-top: -25px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    text-align: left;
+    justify-content: left;
+}
+.logo img{
+    max-width: 40%;
+    margin-top: 10px;
+    
+}
+.pesquisa{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position:absolute;
+
+}
+
+input{
+    border-radius: 20px;
+    border-color:#e0c755;
+    box-shadow: none;
+    padding: 8px;
+    width: 400px;
+}
+
+button{
+    background-color: transparent;
+    border-color: transparent;
+    margin-top: 2px;
+}
+
+.search{
+    margin-left:-50px;
+}
+
+.login{
+    margin-right: 15px;
+    margin-left: 300px;
+}
+.compras{
+    margin-right: 0px;
+    margin-left: 15px;
+}
+
+/* ===== barra menu (início) ===== */
+nav{
+    margin-top: -10px;
+    position: flex;
+}
+.menu{
+    height: 0px;
+    width: 100%;
+}
+.menu ul {
+    background-color: #F5E189;
+    padding: 0%;
+    margin: 0%;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.menu li{
+    display: inline-block;
+    align-items: center;
+    padding: 10px;
+    font-family: "Signika Negative", sans-serif, light;
+    margin-left: 20px;
+}
+.menu a{
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 10px;
+    color: rgb(18, 18, 18);
+    transition: .3s;
+}
+.menu li a:hover{
+    background-color: #e0c755;
+}
+
+/* ==== itens mais vendidos ===== */
+.box_mais_vendidos{
+    position: block;
+}
+
+.itens_mais_vendidos{
+    width: 80%;
+    margin: 2rem;
+    margin-left: 8rem;
+    margin-bottom: 0;
+    display:flex;
+    padding: 15px;
+    padding-bottom: 0;
+    border-bottom: 3px solid #e0c755;
+}
+.mais_vendidos h2{
+    color: black;
+    white-space: nowrap;
+    padding: 12px;
+    padding-bottom: 0;
+    width: 80%;
+}
+
+/*--------- produtos --------- */
+.container{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.imagecontainer{
+    display: inline-flex;
+    margin: 15px;
+}
+
+.box {
+    width: 275px;
+    height: 347px;
+    margin: 10px;
+}
+
+.box .group {
+    position:relative;
+    width: 275px;
+    height: 347px;
+    top: 0;
+    left: 0;
+}
+
+.box .product-info-card {
+    display: flex;
+    flex-direction: column;
+    width: 275px;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 16px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #d9d9d9;
+}
+
+.box .image {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 247px;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.box .body {
+    display: flex;
+    flex-direction: column;
+    width: 208px;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.box .text {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.box .text-wrapper {
+    position: relative;
+    flex: 1;
+    margin-top: -1.00px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #1e1e1e;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 22.4px;
+}
+
+.box .text-strong {
+    display: inline-flex;
+    align-items: flex-start;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.box .div {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    white-space: nowrap;
+}
+
+/* ====itens em promoção===== */
+.box_em_promocao{
+    display: block;
+    height:auto;
+}
+.itens_em_promocao{
+    width: 80%;
+    margin: 2rem;
+    margin-left: 8rem;
+    margin-bottom: 0;
+    display:flex;
+    padding: 15px;
+    padding-bottom: 0;
+    border-bottom: 3px solid #e0c755;
+}
+.em_promocao h2{
+    color: black;
+    white-space: nowrap;
+    padding: 12px;
+    padding-bottom: 0;
+    width: 80%;
+}
+
+/* ------- produtos --------- */
+.container2{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.imagecontainer2{
+    display: inline-flex;
+    margin: 15px;
+}
+
+.box2 {
+    width: 275px;
+    height: 347px;
+    margin: 10px;
+}
+
+.box2 .group {
+    position:relative;
+    width: 275px;
+    height: 347px;
+    top: 0;
+    left: 0;
+}
+
+.box2 .product-info-card {
+    display: flex;
+    flex-direction: column;
+    width: 275px;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 16px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #d9d9d9;
+}
+
+.box2 .image {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 247px;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.box2 .body {
+    display: flex;
+    flex-direction: column;
+    width: 208px;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.box2 .text {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.box2 .text-wrapper {
+    position: relative;
+    flex: 1;
+    margin-top: -1.00px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #1e1e1e;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 22.4px;
+}
+
+.box2 .text-strong {
+    display: inline-flex;
+    align-items: flex-start;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.box2 .div {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    white-space: nowrap;
+}
+/* mapa */
+.contact_container{
+    display: flex;
+    justify-content: space-between;
+}
+.mapa{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex: 1;
+    height: auto;
+    margin-left: 100px;
+}
+iframe{
+    margin: 15px;
+    border-radius: 8px;
+    margin-top: 2rem;
+}
+.informacao{
+    width: 80%;
+    margin: 2rem;
+    margin-left: 8rem;
+    margin-bottom: 0;
+    display:flex;
+    padding: 15px;
+    padding-bottom: 0;
+    border-bottom: 3px solid #e0c755;
+}
+.info h2{
+    color: black;
+    white-space: nowrap;
+    padding: 12px;
+    padding-bottom: 0;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.infos_gerais{
+    margin-right: 180px;
+    width: 30%;
+    margin-top: 2rem;
+    border: #d9d9d9 1px solid;
+    border-radius: 8px;
+    height: 450px;
+}
+.infos_gerais1{
+    padding: 25px;
+}
+.infos_gerais1 h3{
+    padding-bottom: 15px;
+}
+.infos_gerais1 .contato p{
+    padding-bottom: 0px;
+}
+
+/* ===== ABA acessorios ====== */
+.container3{
+    margin-top: 5rem;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container3 .linha1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container3 .linha2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.imagecontainer3{
+    flex-basis: 30%;
+    display: inline-flex;
+    margin: 15px;
+}
+
+.box3 {
+    width: 275px;
+    height: 347px;
+    margin: 10px;
+    transition: transform 0.3;
+}
+.box3:hover{
+    transform: scale(1.02);
+}
+
+.box3 .group {
+    position:relative;
+    width: 275px;
+    height: 347px;
+    top: 0;
+    left: 0;
+}
+
+.box3 .product-info-card {
+    display: flex;
+    flex-direction: column;
+    width: 275px;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 16px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #d9d9d9;
+}
+
+.box3 .image {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 247px;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.box3 .body {
+    display: flex;
+    flex-direction: column;
+    width: 208px;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.box3 .text {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.box3 .text-wrapper {
+    position: relative;
+    flex: 1;
+    margin-top: -1.00px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 22.4px;
+}
+
+.box3 .text-strong {
+    display: inline-flex;
+    align-items: flex-start;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+
+/* ===== java script ====== */
+
+.carousel {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carousel-slide {
+    display: none;
+    margin-left: 18rem;
+    margin-top: 70px;
+  } 
+  
+  .carousel-slide img {
+    width: 60rem;
+    height: auto;
+  }
+  
+  .carousel-slide:first-child {
+    display: block;
+  }
+
+
+.rodape{
+    position: absolute;
+    bottom: 0;
+}
+footer {
+    font-size: small;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}

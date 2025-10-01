@@ -1,0 +1,14 @@
+CREATE DATABASE loginloja;
+USE loginloja;
+
+CREATE TABLE usuario (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    senha VARCHAR(255) NOT NULL,
+    token VARCHAR(255)
+);
+
+INSERT INTO usuario (email, senha)
+VALUES
+('usuario1@email.com', '1234'),
+('usuario2@email.com', '1234');

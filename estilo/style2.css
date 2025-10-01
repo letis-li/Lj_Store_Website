@@ -1,0 +1,66 @@
+/* TESTE DE ESTILO, NAO USAR AINDA */
+
+.pg-faixa-amarela {
+    display:flex;
+    width: 100%;
+    height: 64px;
+    align-items: center;
+    position: relative;
+    background-color: #f5e189;
+  }
+  
+  /* .topo_container{
+    display: flex;
+    position: relative;
+  } */
+   
+
+  .container_logotipo{
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+  }
+  .logotipo{
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+  }
+
+  /* .pg-faixa-amarela .container-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+  } */
+  
+  /* .pg-faixa-amarela .container {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 100px;
+    overflow: hidden;
+  } */
+  
+  /* .pg-faixa-amarela .logotipo {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+    position: relative;
+  }
+  
+  .pg-faixa-amarela .icon {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  } */
+

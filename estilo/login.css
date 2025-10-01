@@ -1,0 +1,160 @@
+/* paleta de cores */
+/* AMARELO ESCURO #e0c755 */
+/* AMARELO PADRÃO #F5E189 */
+
+body {
+    font-family: "Signika Negative", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Cor de fundo leve para contraste */
+}
+
+/* ======= topo (início) ======== */
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #F5E189;
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo img {
+    max-width: 150px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto;
+}
+
+.pesquisa {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    max-width: 500px;
+}
+
+input[type="search"] {
+    border-radius: 20px;
+    border: 2px solid #e0c755;
+    padding: 8px;
+    width: 100%;
+    margin-right: 10px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.search img {
+    width: 20px;
+    height: 20px;
+}
+
+.login img,
+.compras img {
+    width: 30px;
+    height: auto;
+}
+
+.login,
+.compras {
+    margin: 0 15px;
+}
+
+/* ===== barra menu (início) ===== */
+nav {
+    margin-top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #F5E189;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.menu {
+    width: 100%;
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.menu li {
+    padding: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 10px;
+    color: #121212;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover {
+    background-color: #e0c755;
+}
+
+/* ======= conteúdo principal ======= */
+main {
+    margin: 80px auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"] {
+    border-radius: 20px;
+    border: 2px solid #e0c755;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+button[type="submit"] {
+    background-color: #e0c755;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #d1b63c;
+}
+
+/* Links para registrar e outras ações */
+.linkum {
+    color: #e0c755;
+    text-decoration: none;
+}
+
+.linkum:hover {
+    text-decoration: underline;
+}
