@@ -21,7 +21,8 @@ A protoctype of LJ Store virtual commerce, developed with the pourpose of helpin
 ---
 
 ## 💻 Live Demo
-🔗 [https://letis-li.github.io/Lj_Store_Website/]
+🔗 [https://letis-li.github.io/Lj_Store_Website/] 
+Give a star 🌟 if you like it!
 
 ---
 
