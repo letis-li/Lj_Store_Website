@@ -7,7 +7,8 @@ A protoctype of LJ Store virtual commerce, developed with the pourpose of helpin
 ## 🚀 Funcionalities
 - ✅ Search bar (you can use to search products)
 - ✅ Login and Create an account (if you are interested to buy something or receive our adds)
-- ✅ Shopping cart (still a protoctype, but soon will be improved) 
+- ✅ Shopping cart (still a protoctype, but soon will be improved)
+- ✅ Easy Localization (pre-vizualization of the local connected to Google Maps)
 
 ---
 
